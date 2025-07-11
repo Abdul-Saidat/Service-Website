@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service Website</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="desktop-navs">
+      <section class="header">
+        <div class="header__logo">LOGO</div>
+        <nav class="header__nav">
+          <ul>
+            <li class="header__nav-item"><a href="#">Home</a></li>
+            <li class="header__nav-item"><a href="#">About Us</a></li>
+            <li class="header__nav-item"><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <button class="header__button header__button--primary">Login</button>
+      </section>
+    </section>
+    <section class="mobile-navs">
+      <section class="mobile-navs__header">
+        <div class="header__logo">LOGO</div>
+        <button class="header__button header__button--primary">Login</button>
+        <input
+          type="checkbox"
+          name="hamburger"
+          id="menu-toggle"
+          class="menu-toggle"
+        />
+        <label for="menu-toggle" class="dropdown">&#9776; </label>
+        <div class="overlay-menu">
+          <nav class="header__nav">
+            <label for="menu-toggle" class="close-btn">&times;</label>
+            <ul>
+              <li class="header__nav-item"><a href="#">Home</a></li>
+              <li class="header__nav-item"><a href="#">About Us</a></li>
+              <li class="header__nav-item"><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </section>
+    <section class="heading">
+      <h1 class="heading__text">
+        Medicines, Cars, Dining, Electronics Your All-in-One Solution!
+      </h1>
+    </section>
+    <section class="services">
+      <div class="service-card service-card--medicine">
+        <figure class="service-card__image">
+          <img src="./assets/images/img-2.png" alt="Medicine image" />
+        </figure>
+        <div class="service-card--description">
+          <h3 class="service-card__title">Medicines</h3>
+          <p class="service-card__text">
+            Welcome to Heal Hub, where wellness meets convenience on your
+            terms...
+          </p>
+          <button class="service-card__btn">Visit Page</button>
+        </div>
+      </div>
+      <div class="service-card service-card--dining">
+        <figure class="service-card__image">
+          <img src="./assets/images/img-4.png" alt="" />
+        </figure>
+        <div class="service-card--description">
+          <h3 class="service-card__title">Dine Ease</h3>
+          <p class="service-card__text">
+            Dine Ease, ultimate and best destination, Ease brings you your
+            favorite flavors...
+          </p>
+          <button class="service-card__btn">Visit Page</button>
+        </div>
+      </div>
+      <div class="service-card service-card--automobile">
+        <figure class="service-card__image">
+          <img src="./assets/images/img-3.png" alt="" />
+        </figure>
+        <div class="service-card--description">
+          <h3 class="service-card__title">Find Cars</h3>
+          <p class="service-card__text">
+            AutoCrafters, where is Care. We take pride in delivering smooth care
+            for your vehicle...
+          </p>
+          <button class="service-card__btn">Visit Page</button>
+        </div>
+      </div>
+      <div class="service-card service-card--electronics">
+        <figure class="service-card__image">
+          <img src="./assets/images/img-1.png" height="200px" alt="" />
+        </figure>
+        <div class="service-card--description">
+          <h3 class="service-card__title">Electronics</h3>
+          <p class="service-card__text">
+            ElectroSwift brings you the latest gadgets at your fingertips,
+            seamless tech experience.
+          </p>
+          <button class="service-card__btn">Visit Page</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
